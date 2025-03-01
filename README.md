@@ -139,11 +139,11 @@ Open Command Prompt (cmd) or PowerShell.
 
 Type the following command and press Enter:
 
-git --version
+'git --version'
 
 If Git is installed correctly, you will see an output like this:
 
-git version 2.xx.x.windows.x
+'git version 2.xx.x.windows.x'
 
 
 4. Open Git Bash (Recommended for Running Commands)
@@ -165,7 +165,7 @@ Now, we will download the project code.
 
 2. Run the following command to clone the repository:
 
-git clone https://github.com/Santhosh200429/breast-cancer-prediction.git
+'git clone https://github.com/Santhosh200429/breast-cancer-prediction.git'
 
 
 3. Once completed, a new folder named breast-cancer-prediction will be created.
@@ -179,7 +179,7 @@ Step 3: Navigate to the Project Directory
 
 After cloning, you need to enter the project folder. Run:
 
-cd breast-cancer-prediction
+'cd breast-cancer-prediction'
 
 This ensures that all the following commands are executed inside the project folder.
 
@@ -190,7 +190,7 @@ Step 4: Install Python (If Not Installed)
 
 Open Command Prompt and check if Python is installed:
 
-python --version
+'python --version'
 
 If Python is not installed, download and install it from https://www.python.org/downloads/.
 
@@ -206,18 +206,18 @@ A virtual environment helps keep the project dependencies separate.
 
 1. Create a virtual environment:
 
-python -m venv venv
+'python -m venv venv'
 
 
 2. Activate the virtual environment:
 
 Command Prompt:
 
-venv\Scripts\activate
+'venv\Scripts\activate'
 
 Git Bash:
 
-source venv/Scripts/activate
+'source venv/Scripts/activate'
 
 
 
@@ -232,7 +232,7 @@ Step 6: Install Required Python Libraries
 
 To install the dependencies listed in requirements.txt, run:
 
-pip install -r requirements.txt
+'pip install -r requirements.txt'
 
 This will install all necessary packages like NumPy, Pandas, and Scikit-Learn.
 
@@ -261,7 +261,7 @@ Step 8: Open and Run the Jupyter Notebook
 
 1. Start Jupyter Notebook by running:
 
-jupyter notebook
+'jupyter notebook'
 
 
 2. A browser window will open with Jupyter Notebook.
@@ -298,7 +298,7 @@ Step 10: Deactivate the Virtual Environment (If Used)
 
 Once you’re done, deactivate the virtual environment by running:
 
-deactivate
+'deactivate'
 
 
 ---
