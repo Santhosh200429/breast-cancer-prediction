@@ -103,22 +103,211 @@ These results indicate that the model is exceptionally reliable in distinguishin
 
 ## Usage
 
-1. Clone the repository to your local machine.
-2. Install the required Python libraries from `requirements.txt`.
-3. Download the dataset from Kaggle and ensure it is placed in the appropriate directory.
-4. Run the Jupyter Notebook or Python script to train and evaluate the model on the dataset.
+Step-by-Step Guide to Running the Breast Cancer Prediction Project on Windows
 
-```bash
-# Clone the repository
+This guide will help you set up, install dependencies, and run the project, even if you are a beginner.
+
+
+---
+
+Step 1: Install Git on Windows
+
+Git is a tool that allows you to download code from GitHub.
+
+1. Download Git
+
+Go to https://git-scm.com/downloads.
+
+Click on Windows to download the installer.
+
+
+2. Install Git
+
+Open the downloaded .exe file.
+
+Click Next through the installation steps.
+
+When you reach the "Adjusting your PATH environment" screen, select:
+“Git from the command line and also from 3rd-party software” (recommended).
+
+Click Next for other options and complete the installation.
+
+
+3. Verify Git Installation
+
+Open Command Prompt (cmd) or PowerShell.
+
+Type the following command and press Enter:
+
+git --version
+
+If Git is installed correctly, you will see an output like this:
+
+git version 2.xx.x.windows.x
+
+
+4. Open Git Bash (Recommended for Running Commands)
+
+Click Start and search for Git Bash.
+
+Open Git Bash to run Git commands in a Linux-style terminal.
+
+
+
+---
+
+Step 2: Clone the Project Repository from GitHub
+
+Now, we will download the project code.
+
+1. Open Git Bash or Command Prompt.
+
+
+2. Run the following command to clone the repository:
+
 git clone https://github.com/Santhosh200429/breast-cancer-prediction.git
 
-# Install dependencies
+
+3. Once completed, a new folder named breast-cancer-prediction will be created.
+
+
+
+
+---
+
+Step 3: Navigate to the Project Directory
+
+After cloning, you need to enter the project folder. Run:
+
+cd breast-cancer-prediction
+
+This ensures that all the following commands are executed inside the project folder.
+
+
+---
+
+Step 4: Install Python (If Not Installed)
+
+Open Command Prompt and check if Python is installed:
+
+python --version
+
+If Python is not installed, download and install it from https://www.python.org/downloads/.
+
+During installation, make sure to check the box "Add Python to PATH" before clicking install.
+
+
+
+---
+
+Step 5: Create and Activate a Virtual Environment (Recommended)
+
+A virtual environment helps keep the project dependencies separate.
+
+1. Create a virtual environment:
+
+python -m venv venv
+
+
+2. Activate the virtual environment:
+
+Command Prompt:
+
+venv\Scripts\activate
+
+Git Bash:
+
+source venv/Scripts/activate
+
+
+
+3. Once activated, you will see (venv) at the beginning of the command line.
+
+
+
+
+---
+
+Step 6: Install Required Python Libraries
+
+To install the dependencies listed in requirements.txt, run:
+
 pip install -r requirements.txt
 
-# Run the notebook
-jupyter notebook breast_cancer_prediction.ipynb
-```
+This will install all necessary packages like NumPy, Pandas, and Scikit-Learn.
+
+
 ---
+
+Step 7: Download the Dataset from Kaggle
+
+1. Go to Kaggle: https://www.kaggle.com/ and log in.
+
+
+2. Find the dataset (the project should specify the dataset link).
+
+
+3. Download the dataset (usually in CSV format).
+
+
+4. Move the dataset into the project folder (inside breast-cancer-prediction).
+
+
+
+
+---
+
+Step 8: Open and Run the Jupyter Notebook
+
+1. Start Jupyter Notebook by running:
+
+jupyter notebook
+
+
+2. A browser window will open with Jupyter Notebook.
+
+
+3. Click on breast_cancer_prediction.ipynb to open the notebook.
+
+
+4. Run each cell one by one using Shift + Enter or the "Run" button.
+
+
+
+
+---
+
+Step 9: Train and Evaluate the Model
+
+The notebook will guide you through:
+
+Loading the dataset.
+
+Training a machine learning model.
+
+Evaluating its accuracy.
+
+
+Follow the instructions in the notebook and check the results.
+
+
+
+---
+
+Step 10: Deactivate the Virtual Environment (If Used)
+
+Once you’re done, deactivate the virtual environment by running:
+
+deactivate
+
+
+---
+
+✅ Now your breast cancer prediction project is set up and running successfully!
+
+If you have any doubts, feel free to ask.
+
+
 
 ## Future Work
 
