@@ -110,13 +110,11 @@ These results indicate that the model is exceptionally reliable in distinguishin
 
 ```bash
 # Clone the repository
-git clone https://github.com/virajbhutada/Breast-Cancer-Prediction.git
+git clone https://github.com/santhosh200429/Breast-Cancer-Prediction.git
 
 # Install dependencies
 pip install -r requirements.txt
 
-# Run the notebook
-jupyter notebook breast_cancer_prediction.ipynb
 ```
 ---
 
